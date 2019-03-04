@@ -1,0 +1,146 @@
+import org.openqa.selenium.*;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+public class Notes {
+    //Список услуг
+        private By service188121 = By.xpath("//a[@href='/188121/']");//Выдача справок для получения государственной социальной стипендии
+        private By service188209 = By.xpath("//a[@href='/188209/']");//Денежные выплаты на оплату жилого помещения и коммунальных услуг отдельным категориям граждан
+        private By service187889 = By.xpath("//a[@href='/187889/']");//Ежемесячная доплата к пенсии по случаю потери кормильца
+        private By service187925 = By.xpath("//a[@href='/187925/']");//Ежемесячная компенсационная выплата детям из многодетных семей, получающим пенсию по потере кормильца
+        private By service187931 = By.xpath("//a[@href='/187931/']");//Ежемесячная социальная выплата студенческой семье
+        private By service187911 = By.xpath("//a[@href='/187911/']");//Ежемесячное пособие на ребенка в возрасте от 1,5 до 7 лет
+        private By service187897 = By.xpath("//a[@href='/187897/']");//Ежемесячное пособие на ребенка в возрасте от рождения до 1,5 лет
+        private By service187901 = By.xpath("//a[@href='/187901/']");//Ежемесячное пособие на ребенка школьного возраста
+        private By service188081 = By.xpath("//a[@href='/188081/']");//Компенсация за вред, нанесенный здоровью вследствие чернобыльской катастрофы, компенсация на оздоровление и компенсации семьям за потерю кормильца
+        private By service188203 = By.xpath("//a[@href='/188203/']");//Компенсация по оплате жилых помещений, коммунальных услуг, услуг телефонной связи членам семей погибших военнослужащих
+        private By service188379 = By.xpath("//a[@href='/188379/']");//Невзимание родительской платы за присмотр и уход за детьми в образовательных организациях, компенсация части родительской платы за присмотр и уход за детьми в образовательных организациях
+        private By service188261 = By.xpath("//a[@href='/188261/']");//Организация временного трудоустройства
+        private By service188253 = By.xpath("//a[@href='/188253/']");//Организация проведения оплачиваемых общественных работ
+        private By service188139 = By.xpath("//a[@href='/188139/']");//Предоставление объектов государственного дачного фонда
+        private By service188205 = By.xpath("//a[@href='/188205/']");//Ремонт индивидуальных жилых домов, принадлежащих членам семей военнослужащих, потерявшим кормильца
+        private By service188247 = By.xpath("//a[@href='/188247/']");//Социальная адаптация безработных граждан на рынке труда
+        private By service188475 = By.xpath("//a[@href='/188475/']");//Социальные выплаты для приобретения или строительства жилых помещений по целевой программе «Молодежи — доступное жилье»
+        private By service188477 = By.xpath("//a[@href='/188477/']");//Социальные выплаты для приобретения или строительства жилых помещений по целевой программе «Развитие долгосрочного жилищного кредитования в Санкт-Петербурге»
+        private By service188127 = By.xpath("//a[@href='/188127/']");//Экстренная социальная помощь
+        private By service188327 = By.xpath("//a[@href='/188327/']");//Прием заявлений на получение льгот по налогам
+        private By service188515 = By.xpath("//a[@href='/188515/']");//Продажа гражданам жилых помещений государственного жилищного фонда Санкт-Петербурга целевым назначением
+        private By service188085 = By.xpath("//a[@href='/188085/']");//Выдача направлений на бесплатное зубопротезирование для отдельных категорий граждан
+        private By service188089 = By.xpath("//a[@href='/188089/']");//Выдача путевок на оздоровительный отдых различным категориям граждан
+        private By service188035 = By.xpath("//a[@href='/188035/']");//Выдача удостоверения бывшим несовершеннолетним узникам концлагерей
+        private By service188131 = By.xpath("//a[@href='/188131/']");//Единовременная денежная выплата на погребение
+        private By service188119 = By.xpath("//a[@href='/188119/']");//Ежемесячная пожизненная денежная компенсация лицам, подвергшимся политическим репрессиям и впоследствии реабилитированным
+        private By service188505 = By.xpath("//a[@href='/188505/']");//Ведение жилищных учётов нуждающихся в жилых помещениях (улучшении жилищных условий)
+        private By service188875 = By.xpath("//a[@href='/188875/']");//Внесение в Реестр записи о парковочном разрешении многодетной семьи
+        private By service188029 = By.xpath("//a[@href='/188029/']");//Выдача свидетельства многодетной семьи
+        private By service187907 = By.xpath("//a[@href='/187907/']");//Ежегодная компенсационная выплата на детей из многодетных семей
+        private By service187941 = By.xpath("//a[@href='/187941/']");//Ежемесячная денежная выплата семьям при рождении третьего или последующих детей в период с 1 января 2013 года до достижения ребенком 3 лет
+        private By service187919 = By.xpath("//a[@href='/187919/']");//Ежемесячная социальная выплата матерям, родившим (усыновившим) и воспитавшим 5 и более детей и получающим пенсию
+        private By service188493 = By.xpath("//a[@href='/188493/']");//Предоставление многодетным семьям земельных участков для индивидуального жилищного или дачного строительства
+        private By service187973 = By.xpath("//a[@href='/187973/']");//Предоставление многодетным семьям транспортного средства
+        private By service187961 = By.xpath("//a[@href='/187961/']");//Рассмотрение заявлений о распоряжении средствами (частью средств) материнского (семейного) капитала
+        private By service187963 = By.xpath("//a[@href='/187963/']");//Сертификат «Материнский (семейный) капитал в Санкт-Петербурге»
+        private By service188487 = By.xpath("//a[@href='/188487/']");//Социальные выплаты гражданам для приобретения или строительства жилых помещений
+        private By service187997 = By.xpath("//a[@href='/187997/']");//Возмещение расходов на обучение детей-сирот и детей, оставшихся без попечения родителей
+        private By service188001 = By.xpath("//a[@href='/188001/']");//Возмещение стоимости проезда к месту отдыха, лечения и обратно детям-сиротам
+        private By service188003 = By.xpath("//a[@href='/188003/']");//Единовременное денежное пособие и компенсация на покупку одежды, обуви, мягкого инвентаря и оборудования детям-сиротам и детям, оставшимся без попечения родителей
+        private By service188005 = By.xpath("//a[@href='/188005/']");//Единовременное пособие выпускникам образовательных учреждений из числа детей-сирот и детей, оставшихся без попечения родителей, при поступлении в образовательные учреждения
+        private By service188011 = By.xpath("//a[@href='/188011/']");//Единовременное пособие при передаче ребенка в семью за счет средств бюджета Санкт-Петербурга
+        private By service187993 = By.xpath("//a[@href='/187993/']");//Единовременное пособие при передаче ребенка на воспитание в семью (за счет средств федерального бюджета)
+        private By service188007 = By.xpath("//a[@href='/188007/']");//Ежегодное пособие на приобретение учебной литературы и письменных принадлежностей детям-сиротам и детям, оставшимся без попечения родителей
+        private By service187935 = By.xpath("//a[@href='/187935/']");//Ежемесячная денежная компенсация на питание детей в образовательных организациях
+        private By service188213 = By.xpath("//a[@href='/188213/']");//Оплата жилого помещения и коммунальных услуг детям-сиротам и детям, оставшимся без попечения родителей
+        private By service187999 = By.xpath("//a[@href='/187999/']");//Оформление бесплатного проезда к месту жительства и обратно к месту учебы детям-сиротам
+        private By service188539 = By.xpath("//a[@href='/188539/']");//Предоставление жилых помещений специализированного жилищного фонда в домах системы социального обслуживания населения лицам, нуждающимся в постоянном уходе и наблюдении
+        private By service188241 = By.xpath("//a[@href='/188241/']");//Консультирование жителей муниципального образования по вопросам создания ТСЖ и формирования земельных участков
+        private By service188641 = By.xpath("//a[@href='/188641/']");//Выдача градостроительных планов земельных участков
+        private By service188949 = By.xpath("//a[@href='/188949/']");//Выдача копий архивных документов, подтверждающих право на владение землей
+        private By service188763 = By.xpath("//a[@href='/188763/']");//Выдача порубочных билетов
+        private By service187841 = By.xpath("//a[@href='/187841/']");//Государственная регистрация рождения
+        private By service187847 = By.xpath("//a[@href='/187847/']");//Государственная регистрация смерти
+        private By service188259 = By.xpath("//a[@href='/188259/']");//Информирование о положении на рынке труда
+        private By service188195 = By.xpath("//a[@href='/188195/']");//Лицензирование деятельности по управлению многоквартирными домами
+        private By service188421 = By.xpath("//a[@href='/188421/']");//Выдача заграничного паспорта
+        private By service330515 = By.xpath("//a[@href='/330515/']");//Проверка готовности заграничного паспорта
+        private By service188823 = By.xpath("//a[@href='/188823/']");//Аккредитация региональных спортивных федераций
+        private By service188729 = By.xpath("//a[@href='/188729/']");//Аккредитация экскурсоводов и гидов-переводчиков
+        private By service188391 = By.xpath("//a[@href='/188391/']");//Экспертиза ценности документов
+        private By service188381 = By.xpath("//a[@href='/188381/']");//Ведение электронного дневника и электронного журнала учащегося
+        private By service188871 = By.xpath("//a[@href='/188871/']");//Внесение в Реестр записи о парковочном разрешении жителя
+        private By service187853 = By.xpath("//a[@href='/187853/']");//Государственная регистрация перемены имени
+        private By service188453 = By.xpath("//a[@href='/188453/']");//Запись на прием к врачу
+        private By service188331 = By.xpath("//a[@href='/188331/']");//Перерасчет транспортного налога
+
+    static WebDriver driver;
+    public static void main(String[] args) {
+
+        System.setProperty("webdriver.gecko.driver", "/usr/local/bin/geckodriver");
+
+        driver =  new FirefoxDriver(); //запуск браузера
+        driver.manage().window().maximize(); //развернуть окно браузера макс
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); //неявное ожидание 10 сек
+
+        driver.get("https://gu.spb.ru"); //переход на страницу
+
+        WebElement element = driver.findElement(By.xpath("")); //поиск элемента по xpath
+        List<WebElement> checkboxes = driver.findElements(By.xpath("")); //поиск списка (list) элементов по xpath
+        element.click(); //нажать на кнопку
+        element.submit(); //нажать на кнопку
+        element.sendKeys(""); //заполнить поле текстом
+        element.clear(); //очистить заполненное текстовое поле
+        element.getAttribute("value"); //получить значение текстового поля
+        element.isSelected(); // boolean - выделен элемент или нет. Применять к тэгу input
+        element.isEnabled(); // boolean - доступно ли поле или дисейблено
+        element.isDisplayed(); // boolean - отображен ли элемент на странице
+
+        driver.findElements(By.xpath("")).size();
+
+        WebDriverWait wait = (new WebDriverWait(MainClass.driver, 10)); //создание переменной явного ожидания
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(""))); //явное ожидание - ждать, пока появится элемент, описанный в xpath
+
+        Actions actions = new Actions(driver);
+        actions.moveToElement(element).build().perform(); // навести курсор на элемент
+        actions.dragAndDrop(element, element).build().perform(); // drag and drop - с первого xpath на второй xpath
+        actions.clickAndHold(element).build().perform(); //кликнуть и не отпускать клавишу мыши
+        actions.release(); //отпустить мышь
+        actions.doubleClick(element).build().perform(); // двойной клик
+        actions.contextClick(element).build().perform(); // клик правой кнопкой мыши
+
+        JavascriptExecutor jse = (JavascriptExecutor)driver; // создание экзекютора
+        jse.executeScript("alert('HELLO');"); // вызов алерта
+        jse.executeScript("window.scrollBy(0, 1000)", ""); // скролл страницы
+
+        driver.switchTo().alert().dismiss(); // переключиться на алерт и нажать ок(accept) или нет(dismiss)
+        driver.switchTo().window("название окна"); // переключиться на другое окно браузера
+        String window = driver.getWindowHandle(); // получить имя текущего окна
+        for (String tab : driver.getWindowHandles()){ // цикл переключения на последнее открытое окно или вкладку
+            driver.switchTo().window(tab);
+        }
+
+        driver.findElements(By.xpath()); //есть ли такой элемент как в указанном xpath
+        if(driver.findElements(By.xpath()).size() > 0) System.out.println("success"); // условие - если таких элементов больше нуля, написать стрингу
+
+        element.sendKeys(Keys.ENTER); // имитация нажатия клавиши ЭНТЕР
+        element.sendKeys(Keys.chord(Keys.SHIFT, "text")); // имитация зажатого шифта и написания текста
+        element.sendKeys(Keys.chord(Keys.SHIFT, "a")); // имитация комбинации клавиш ШИФТ + а
+        element.sendKeys("C\\...itd.jpg"); // загрузка файла. Работает только для тэга input с type='file'
+
+        public RegistrationPage(WebDriver driver) {
+        // проверить, что вы находитесь на верной странице
+        if (!driver.getCurrentUrl().contains(URL_MATCH)) {
+                    throw new IllegalStateException(
+                        "This is not the page you are expected"
+                        );
+        }
+        PageFactory.initElements(driver, this);
+        this.driver = driver;
+    }
+
+        driver.quit(); //закрыть браузер
+    }
+}

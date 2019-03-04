@@ -22,42 +22,42 @@ public class MfcPageTest extends BaseTest {
         Assert.assertFalse(lifeServicesPage.isElementPresent());
         Assert.assertTrue(lifeServicesPage.lifeServicesListSize(9));
 
-        driver.get("https://gu.spb.ru/mfc/");
+        open(ConfigProperties.getTestProperty("url") + "/mfc/");
 
         mfcPage.clickLifeServicesList(3);
         Assert.assertEquals("ЖИЗНЕННАЯ СИТУАЦИЯ «ИНДИВИДУАЛЬНОЕ ЖИЛИЩНОЕ СТРОИТЕЛЬСТВО»", lifeServicesPage.getLifeServiceHeadingText());
         Assert.assertFalse(lifeServicesPage.isElementPresent());
         Assert.assertTrue(lifeServicesPage.lifeServicesListSize(9));
 
-        driver.get("https://gu.spb.ru/mfc/");
+        open(ConfigProperties.getTestProperty("url") + "/mfc/");
 
         mfcPage.clickLifeServicesList(4);
         Assert.assertEquals("ЖИЗНЕННАЯ СИТУАЦИЯ «ОТКРЫТИЕ СВОЕГО ДЕЛА»", lifeServicesPage.getLifeServiceHeadingText());
         Assert.assertFalse(lifeServicesPage.isElementPresent());
         Assert.assertTrue(lifeServicesPage.lifeServicesListSize(9));
 
-        driver.get("https://gu.spb.ru/mfc/");
+        open(ConfigProperties.getTestProperty("url") + "/mfc/");
 
         mfcPage.clickLifeServicesList(5);
         Assert.assertEquals("ЖИЗНЕННАЯ СИТУАЦИЯ «УТРАТА БЛИЗКОГО ЧЕЛОВЕКА»", lifeServicesPage.getLifeServiceHeadingText());
         Assert.assertFalse(lifeServicesPage.isElementPresent());
         Assert.assertTrue(lifeServicesPage.lifeServicesListSize(9));
 
-        driver.get("https://gu.spb.ru/mfc/");
+        open(ConfigProperties.getTestProperty("url") + "/mfc/");
 
         mfcPage.clickLifeServicesList(6);
         Assert.assertEquals("ЖИЗНЕННАЯ СИТУАЦИЯ «ПЕРЕМЕНА ИМЕНИ»", lifeServicesPage.getLifeServiceHeadingText());
         Assert.assertFalse(lifeServicesPage.isElementPresent());
         Assert.assertTrue(lifeServicesPage.lifeServicesListSize(9));
 
-        driver.get("https://gu.spb.ru/mfc/");
+        open(ConfigProperties.getTestProperty("url") + "/mfc/");
 
         mfcPage.clickLifeServicesList(7);
         Assert.assertEquals("ЖИЗНЕННАЯ СИТУАЦИЯ «ПРИОБРЕТЕНИЕ ЖИЛЬЯ»", lifeServicesPage.getLifeServiceHeadingText());
         Assert.assertFalse(lifeServicesPage.isElementPresent());
         Assert.assertTrue(lifeServicesPage.lifeServicesListSize(9));
 
-        driver.get("https://gu.spb.ru/mfc/");
+        open(ConfigProperties.getTestProperty("url") + "/mfc/");
 
         mfcPage.clickLifeServicesList(8);
         Assert.assertEquals("ЖИЗНЕННАЯ СИТУАЦИЯ «СМЕНА МЕСТА ЖИТЕЛЬСТВА»", lifeServicesPage.getLifeServiceHeadingText());

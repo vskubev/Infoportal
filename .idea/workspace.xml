@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6293557-433d-4a1d-a28d-5468dc26c495" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="f6293557-433d-4a1d-a28d-5468dc26c495" name="Default Changelist" comment="Changed path to ChromeDriver at Windows">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/FeedbackPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FeedbackPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MfcPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MfcPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/OrganizationsPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/OrganizationsPageTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,22 +73,23 @@
     <session id="-790759147">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.26" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gitignore" value="1" />
-          <entry key="java" value="1" />
+          <entry key="gitignore" value="2" />
+          <entry key="java" value="6" />
           <entry key="properties" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="Git file" value="1" />
+          <entry key="JAVA" value="6" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="1" />
         </counts>
@@ -91,40 +97,26 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="33" />
+          <entry key="java" value="16" />
+          <entry key="txt" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Git file" value="33" />
+          <entry key="JAVA" value="16" />
+          <entry key="PLAIN_TEXT" value="57" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Utils/ConfigProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Resources/config.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -180,7 +172,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Pages/DocumentsBlanksPages/DocumentsBlanksPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/LegislationPages/LegislationPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/BasePackage/BasePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DocumentsBlanksPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/LegislationPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/MainPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/MfcAllServicesPageTest.java" />
@@ -192,9 +183,10 @@
         <option value="$PROJECT_DIR$/src/test/java/FeedbackPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/MfcPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/OrganizationsPageTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/Resources/config.properties" />
         <option value="$PROJECT_DIR$/src/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/java/DocumentsBlanksPageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BaseTest.java" />
       </list>
     </option>
   </component>
@@ -265,10 +257,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="add_unversioned_files" value="true&#10;/Users/skubev/IdeaProjects/gu.spb.ru/src/main/Resources/config.properties&#10;C:/Users/skubyev/IdeaProjects/Infoportal/src/main/Resources/config.properties" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551770429721" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551770976695" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -282,22 +274,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DocumentsBlanksPageTest.openDocumentPageTest">
+  <component name="RunManager" selected="JUnit.DocumentsBlanksPageTest">
+    <configuration name="DocumentsBlanksPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="infoportal" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DocumentsBlanksPageTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DocumentsBlanksPageTest.openDocumentPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gu.spb.ru" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DocumentsBlanksPageTest" />
       <option name="METHOD_NAME" value="openDocumentPageTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PaymentPageTest.openZsdPaymentPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="gu.spb.ru" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PaymentPageTest" />
-      <option name="METHOD_NAME" value="openZsdPaymentPageTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -330,19 +320,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.PaymentPageTest.openZsdPaymentPageTest" />
       <item itemvalue="JUnit.ResidentParkingPermitServicePageTest" />
       <item itemvalue="JUnit.ResultSearchPageTest" />
       <item itemvalue="JUnit.ServicesPageTest.onlinePhysicalPersonIncompleteFamilyCheckboxesTest" />
       <item itemvalue="JUnit.DocumentsBlanksPageTest.openDocumentPageTest" />
+      <item itemvalue="JUnit.DocumentsBlanksPageTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DocumentsBlanksPageTest" />
         <item itemvalue="JUnit.DocumentsBlanksPageTest.openDocumentPageTest" />
         <item itemvalue="JUnit.ServicesPageTest.onlinePhysicalPersonIncompleteFamilyCheckboxesTest" />
         <item itemvalue="JUnit.ResultSearchPageTest" />
         <item itemvalue="JUnit.ResidentParkingPermitServicePageTest" />
-        <item itemvalue="JUnit.PaymentPageTest.openZsdPaymentPageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -494,15 +484,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainPageTest - 2019.02.28 at 17h 06m 46s.xml">
-      <configuration name="MainPageTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MfcAllServicesPageTest - 2019.02.28 at 17h 07m 57s.xml">
-      <configuration name="MfcAllServicesPageTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MfcPageTest - 2019.02.28 at 21h 24m 36s.xml">
-      <configuration name="MfcPageTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="OfficeMfcPageTest - 2019.02.28 at 21h 25m 26s.xml">
       <configuration name="OfficeMfcPageTest" configurationId="JUnit" />
     </history-entry>
@@ -524,11 +505,20 @@
     <history-entry file="DocumentsBlanksPageTest_openDocumentPageTest - 2019.03.01 at 10h 23m 09s.xml">
       <configuration name="DocumentsBlanksPageTest.openDocumentPageTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DocumentsBlanksPageTest - 2019.03.05 at 10h 28m 07s.xml">
+      <configuration name="DocumentsBlanksPageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DocumentsBlanksPageTest - 2019.03.05 at 10h 28m 39s.xml">
+      <configuration name="DocumentsBlanksPageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DocumentsBlanksPageTest - 2019.03.05 at 10h 29m 32s.xml">
+      <configuration name="DocumentsBlanksPageTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29317698" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29637527" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -537,7 +527,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32921347" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32921347" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -835,13 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MfcPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/OfficeMfcPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -898,22 +881,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DocumentsBlanksPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" column="65" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gu.spb.ru.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Utils/ConfigProperties.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -922,17 +891,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MfcPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DocumentsBlanksPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="27" column="108" selection-start-line="27" selection-start-column="108" selection-end-line="27" selection-end-column="108" />
+          <folding>
+            <element signature="e#1756#1757#0" expanded="true" />
+            <element signature="e#1785#1786#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Resources/config.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>

@@ -25,16 +25,16 @@ public class BaseTest extends ConciseAPI {
 
         //Work computer
 
-        /*System.setProperty("webdriver.chrome.driver", "C:\\Users\\skubyev\\IdeaProjects\\gu.spb.ru\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\skubyev\\IdeaProjects\\Infoportal\\drivers\\chromedriver.exe");
         options.addArguments("user-data-dir=C:\\Users\\skubyev\\AppData\\Local\\Google\\Chrome\\User Data");
         driver = new ChromeDriver(options);
-        driver.manage().window().maximize();*/
+        driver.manage().window().maximize();
 
         //Home computer
 
-        System.setProperty("webdriver.chrome.driver", "/Users/skubev/IdeaProjects/gu.spb.ru/drivers/chromedriver");
+        /*System.setProperty("webdriver.chrome.driver", "/Users/skubev/IdeaProjects/gu.spb.ru/drivers/chromedriver");
         driver = new ChromeDriver();
-        driver.manage().window().maximize();
+        driver.manage().window().maximize();*/
 
         //System.setProperty("webdriver.gecko.driver", "/Users/skubev/IdeaProjects/gu.spb.ru/drivers/geckodriver");
         //driver = new FirefoxDriver();

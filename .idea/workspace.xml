@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6293557-433d-4a1d-a28d-5468dc26c495" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,30 +65,68 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-790759147">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gitignore" value="1" />
+          <entry key="java" value="1" />
+          <entry key="properties" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Properties" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="gitignore" value="33" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Git file" value="33" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Resources/config.properties">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Utils/ConfigProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            <state relative-caret-position="51">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/Resources/config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="34">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -150,11 +189,11 @@
         <option value="$PROJECT_DIR$/src/test/java/ResidentParkingPermitServicePageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ResultSearchPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ServicesPageTest.java" />
-        <option value="$PROJECT_DIR$/src/main/Resources/config.properties" />
         <option value="$PROJECT_DIR$/src/test/java/FeedbackPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/MfcPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/OrganizationsPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/Resources/config.properties" />
         <option value="$PROJECT_DIR$/src/.gitignore" />
       </list>
     </option>
@@ -179,55 +218,41 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="gu.spb.ru" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gu.spb.ru" type="462c0819:PsiDirectoryNode" />
+              <item name="Infoportal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Infoportal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gu.spb.ru" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gu.spb.ru" type="462c0819:PsiDirectoryNode" />
+              <item name="Infoportal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Infoportal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gu.spb.ru" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gu.spb.ru" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gu.spb.ru" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gu.spb.ru" type="462c0819:PsiDirectoryNode" />
+              <item name="Infoportal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Infoportal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gu.spb.ru" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gu.spb.ru" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="BasePackage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gu.spb.ru" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gu.spb.ru" type="462c0819:PsiDirectoryNode" />
+              <item name="Infoportal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Infoportal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="Resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gu.spb.ru" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gu.spb.ru" type="462c0819:PsiDirectoryNode" />
+              <item name="Infoportal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Infoportal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gu.spb.ru" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gu.spb.ru" type="462c0819:PsiDirectoryNode" />
+              <item name="Infoportal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Infoportal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -236,14 +261,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="add_unversioned_files" value="true&#10;/Users/skubev/IdeaProjects/gu.spb.ru/src/main/Resources/config.properties" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551533283701" />
+    <property name="add_unversioned_files" value="true&#10;/Users/skubev/IdeaProjects/gu.spb.ru/src/main/Resources/config.properties&#10;C:/Users/skubyev/IdeaProjects/Infoportal/src/main/Resources/config.properties" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551770429721" />
     <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -502,9 +526,9 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="982" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28700745" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29317698" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -572,13 +596,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added gitignore" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/MfcPages/PressCenterPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Pages/MfcPages/QualityOfServicesPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -790,7 +807,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gitignore.gitignore" />
-    <entry file="file://$PROJECT_DIR$/src/.gitignore." />
     <entry file="file://$PROJECT_DIR$/src/main/java/BasePackage/ConciseAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -892,22 +908,33 @@
     <entry file="file://$PROJECT_DIR$/gu.spb.ru.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="34">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/ConfigProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

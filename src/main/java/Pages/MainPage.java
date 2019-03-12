@@ -138,6 +138,12 @@ public class MainPage extends BasePage {
         /*driver.close();
         driver.switchTo().window(tabs.get(0));*/
 
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         return new MobileAppPage(driver);
     }
 

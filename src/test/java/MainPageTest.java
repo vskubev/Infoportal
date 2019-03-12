@@ -289,7 +289,7 @@ public class MainPageTest extends BaseTest {
         Assert.assertEquals("Мобильное приложение «Госуслуги Санкт‑Петербурга»", mobileAppPage.getMobileAppHeadingText());
     }
 
-    @Ignore
+    @Test
     public void openAppStoreTest(){
         mainPage.mobileAppCShouldBeDisplayed();
 
@@ -301,7 +301,7 @@ public class MainPageTest extends BaseTest {
         Assert.assertEquals("https://itunes.apple.com/ru/app/gosuslugi-sankt-peterburga/id595073853", url);
     }
 
-    @Ignore
+    @Test
     public void openGooglePlayTest(){
         mainPage.mobileAppCShouldBeDisplayed();
 

@@ -6,6 +6,7 @@
 login = xxxx <br>
 password = xxxx <br>
 url = xxxx <br>
+
 2. Указать путь к ChromeDriver (класс BaseTest)
 
 При наличии прокси:

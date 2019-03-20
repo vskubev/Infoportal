@@ -1,6 +1,7 @@
 <b>Перед запуском тестов:</b>
 
 1. В папку Java добавить папку Resources с файлом config.properties 
+
 Структура файла config.properties:
 login = xxxx
 password = xxxx

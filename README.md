@@ -2,10 +2,10 @@
 
 1. В папку Java добавить папку Resources с файлом config.properties 
 
-Структура файла config.properties:
-login = xxxx
-password = xxxx
-url = xxxx
+Структура файла config.properties:<br>
+login = xxxx <br>
+password = xxxx <br>
+url = xxxx <br>
 2. Указать путь к ChromeDriver (класс BaseTest)
 
 При наличии прокси:
